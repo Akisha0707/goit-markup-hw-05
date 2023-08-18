@@ -782,7 +782,7 @@ button {
 
 input[type="checkbox"]:checked + .modal-agreement > .check-box {
   background-color: var(--iris, #4d5ae5);
-  border-color: var(--iris, #4d5ae5);
+  border: none;
   fill: #f4f4fd;
 }
 
