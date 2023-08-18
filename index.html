@@ -420,17 +420,15 @@
             <label class="form-element">
               <input
                 class="form-input"
-                type="text"
+                type="email"
                 name="container-user-name"
                 placeholder="E-mail"
               />
-              <button class="form-button-footer" type="submit">
-                Subscribe
-              </button>
-              <svg class="form-img" width="24" height="24">
-                <use href="./images/icons.svg#icon-Frame-3"></use>
-              </svg>
             </label>
+            <button class="form-button-footer" type="submit">Subscribe</button>
+            <svg class="form-img" width="24" height="24">
+              <use href="./images/icons.svg#icon-Frame-3"></use>
+            </svg>
           </form>
         </div>
       </div>
@@ -446,7 +444,7 @@
         <form>
           <div class="modal-form">
             <label class="modal-form-name" for="user-name">Name</label>
-            <div class="modal-form">
+            <div class="modal-form-icons">
               <input
                 class="modal-form-element"
                 type="text"
@@ -457,8 +455,10 @@
                 <use href="./images"></use>
               </svg>
             </div>
-            <div class="modal-form">
-              <label class="modal-form-name" for="form-user-phone">Phone</label>
+          </div>
+          <div class="modal-form">
+            <label class="modal-form-name" for="form-user-phone">Phone</label>
+            <div class="modal-form-icons">
               <input
                 class="modal-form-element"
                 type="text"
@@ -469,8 +469,10 @@
                 <use href="./images"></use>
               </svg>
             </div>
-            <div class="modal-form">
-              <label class="modal-form-name" for="form-user-email">Email</label>
+          </div>
+          <div class="modal-form">
+            <label class="modal-form-name" for="form-user-email">Email</label>
+            <div class="modal-form-icons">
               <input
                 class="modal-form-element"
                 type="text"
@@ -481,36 +483,36 @@
                 <use href="./images"></use>
               </svg>
             </div>
-            <div class="modal-comment-window">
-              <label class="modal-form-name" for="user-comment">Comment</label>
-              <textarea
-                class="text-comment"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-            <div class="checkbox-container">
-              <input
-                class="visually-hidden"
-                name="user-privacy"
-                type="checkbox"
-                id="user-privacy"
-                value="true"
-              />
-              <label class="check-box" for="user-privacy"
-                >I accept the terms and conditions of the<span
-                  class="modal-agreement"
-                >
-                  <svg class="check-box-icons" width="10" height="8">
-                    <use href="./images"></use>
-                  </svg>
-                  <a class="modal-agreement-link">Privicy Policy</a>
-                </span>
-              </label>
-            </div>
-            <button class="form-modal-button"></button>
           </div>
+          <div class="modal-comment-window">
+            <label class="modal-form-name" for="user-comment">Comment</label>
+            <textarea
+              class="text-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="checkbox-container">
+            <input
+              class="visually-hidden"
+              name="user-privacy"
+              type="checkbox"
+              id="user-privacy"
+              value="true"
+            />
+            <label class="check-box" for="user-privacy"
+              >I accept the terms and conditions of the<span
+                class="modal-agreement"
+              >
+                <svg class="check-box-icons" width="10" height="8">
+                  <use href="./images"></use>
+                </svg>
+                <a class="modal-agreement-link">Privicy Policy</a>
+              </span>
+            </label>
+          </div>
+          <button class="form-modal-button"></button>
         </form>
       </div>
     </div>
