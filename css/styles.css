@@ -714,7 +714,7 @@ button {
   outline: transparent;
 }
 
-.modal-form-element:focus {
+.modal-svg:focus {
   border-color: #4d5ae5;
 }
 
@@ -758,7 +758,7 @@ button {
   margin-bottom: 24px;
 }
 
-.check-box {
+.modal-agreement {
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -766,7 +766,7 @@ button {
   color: var(--gray, #8e8f99);
 }
 
-.modal-agreement {
+.check-box {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -778,6 +778,12 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
+}
+
+input[type="checkbox"]:checked + .modal-agreement > .check-box {
+  background-color: var(--iris, #4d5ae5);
+  border-color: var(--iris, #4d5ae5);
+  fill: #f4f4fd;
 }
 
 .modal-agreement-link {
