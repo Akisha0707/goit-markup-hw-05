@@ -814,6 +814,10 @@ button {
   fill: #ffffff;
 }
 
+.form-modal-button-icons {
+  margin-left: 16px;
+}
+
 /**Portfolio**/
 
 /* page-body-portfolio */
